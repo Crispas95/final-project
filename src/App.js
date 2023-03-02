@@ -1,17 +1,14 @@
 import React from 'react'
-import Categories from './components/category/Categories';
-import Hero from './components/hero/Hero';
 import Navabr from './components/navbar/Navabr';
-import Receents from './static/recents/Receents';
+import Home from './components/home/Home';
+
 
 
 function App() {
   return (
     <>
     <Navabr />
-    <Hero/>
-    <Categories/>
-    <Receents/>
+    <Home />
     </>
   );
 }
